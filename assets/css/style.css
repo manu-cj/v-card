@@ -200,3 +200,8 @@ button {
     border: none;
     background-color:#196fdf;
 }
+
+button:hover {
+    background-color:#196fdf98;
+    cursor: pointer;
+}
