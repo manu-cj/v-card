@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    padding-top: 50px;
+}
+
+#v-card {
+    width: 75%;
+    height: 600px;
+    margin: auto;
+    background-color: tomato;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+#card {
+    width: 350px;
+    height: 450px;
+    background-color: bisque;
+    background-image: url(/assets/img/tumblr_pq81asUB4i1ueqxblo1_400.png);
+    background-size: cover;
+    border-radius: 5px;
+    position: relative;
+    left: 450px;
+    bottom: 550px;
+    box-shadow:
+     rgb(204, 219, 232) 3px 3px 6px 0px inset,
+     rgba(0, 186, 171, 0.5) -3px -3px 6px 1px inset;
+}
+
+#side-left {
+    width: 70%;
+    height: 100%;
+    margin-right: 100px;
+    background-color: aquamarine;
+
+    z-index: 0;
+}
+
+#top-section {
+    width: 100%;
+    height: 20%;
+    padding: 5%;
+}
+
+#bottom-section {
+    width: 100%;
+    height: 80%;
+    flex-direction: column;
+    align-content: flex-end;
+}
+
+#datas {
+    width: 75%;
+    padding: 30px;
+    font-weight: bolder;
+}
+
+#datas a {
+    text-decoration-line: none;
+    color: tomato;
+}
+
+ #social-links {
+    margin-top: 15px;
+    font-size: 30px;
+ }
+
+aside {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: end;
+    margin-right: 100px;
+}
+
+#profil-datas {
+    width: 60%;
+    height: 60%;
+    background-color: rgba(5, 199, 213, 0.749);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    font-size: large;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+}
