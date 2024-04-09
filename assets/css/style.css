@@ -34,7 +34,7 @@ body {
 #card {
     width: 350px;
     height: 400px;
-    background-image: url(/img/tumblr_pq81asUB4i1ueqxblo1_400.png);
+    background-image: url(https://64.media.tumblr.com/36acc53f0eac3056315c5d8cb0d1c6f0/tumblr_pq81asUB4i1ueqxblo1_400.png);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 5px;
@@ -42,8 +42,9 @@ body {
     left: 350px;
     bottom: 580px;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 15px 50px 2px;
-    border: #0b3cef5e 2px solid;
+    border: #0b3cef8e 4px solid;
     z-index: 0;
+    transform: rotate(5deg);
     animation: hideCard;
 }
 
@@ -53,12 +54,12 @@ body {
 
 @keyframes hideCard {
 	0% {
-		transform: translateX(0);
+		transform: translateX(0) rotate(5deg);
         z-index: 2;
 	}
 
 	40% {
-		transform: translateX(250px);
+		transform: translateX(350px) rotate(9deg);
         z-index: 2;
 	}
 
@@ -67,7 +68,7 @@ body {
     }
 
     100% {
-        transform: translate(0);
+        transform: translate(0) rotate(5deg);
         z-index: 0;
     }
 }
@@ -82,11 +83,11 @@ body {
 
 @keyframes showCard {
 	0% {
-		transform: translateX(0);
+		transform: translateX(0) rotate(5deg);
 	}
 
 	40% {
-		transform: translateX(250px);
+		transform: translateX(350px) rotate(10deg);
         z-index: 0;
 	}
 
@@ -95,7 +96,7 @@ body {
     }
 
     100% {
-        transform: translate(0);
+        transform: translate(0) rotate(5deg);
         z-index: 2;
     }
 }
@@ -105,8 +106,9 @@ body {
     height: 100%;
     margin-right: 100px;
     z-index: 1;
+    border: 3px rgba(228, 215, 199, 0.422) solid;;
     border-right: 2px rgba(255, 255, 255, 0.422) solid;
-    background: rgba(35, 239, 168, 0.35);
+    background: rgba(35, 239, 225, 0.733);
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 2.5px );
     -webkit-backdrop-filter: blur( 2.5px );
