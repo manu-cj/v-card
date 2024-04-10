@@ -10,7 +10,7 @@ body {
 }
 
 #v-card {
-    width: 75%;
+    width: 130vh;
     height: 600px;
     margin: auto;
     background-image: 
@@ -29,6 +29,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    border-left: 1px rgb(239, 173, 101) dashed;
 }
 
 #card {
@@ -106,7 +107,7 @@ body {
     height: 100%;
     margin-right: 100px;
     z-index: 1;
-    border: 3px rgba(228, 215, 199, 0.422) solid;;
+    border: 3px rgba(250, 211, 163, 0.815) ridge;;
     border-right: 2px rgba(255, 255, 255, 0.422) solid;
     background: rgba(35, 239, 225, 0.733);
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -131,7 +132,7 @@ body {
 }
 
 #datas {
-    width: 75%;
+    width: 90%;
     padding: 30px;
     font-weight: bolder;
 }
