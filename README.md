@@ -5,7 +5,7 @@
 > ["What do you think?"](https://www.youtube.com/watch?v=aZVkW9p-cCU)
 
 - Create a public repository: `v-card`
-- Duration: 1/2 day
+- Duration: 1 day
 - uplaod project to github Pages
 
 ## Learning objectives
