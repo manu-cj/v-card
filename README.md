@@ -33,7 +33,7 @@ Branch are a safe way to try new features without compromising the code quality 
 
 ### An example V-Card
 
-![An example](./example.png)
+![An example](./img/Enregistrement2024-04-09154329-ezgif.com-video-to-gif-converter.gif)
 
 ### Some useful ressources
 
